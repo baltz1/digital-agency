@@ -11,25 +11,29 @@ export default class News extends Component {
                   <div className="carousel-container">
                   {/* This is the start of the carousel */}
                     <div id="carouselNews" className="carousel slide" data-ride="carousel">
-                      <div className="carousel-inner">
+                      <div className="over-ride carousel-inner">
                        <div className="carousel-item active">
                           <div className="carousel-header">
                             <h1><span>nyc</span>fsn wk</h1>
-                            <p>100% participation in all major designers' presentations</p>
-                            <span></span>
-                            <p>created on <span>feb 20, 2016</span></p>
+                            <p className="news-description">100% participation in all major designers' presentations</p>
+                            <div className="line-container">
+                              <span className="design-line"></span>
+                            </div>
+                            <div className="post-date">
+                              <p>Created on <span>feb 20, 2016</span></p>
+                            </div>
                           </div>
                           <img className="d-block w-100" src="..." alt="First slide" />
                           <div>
 
                           </div>
                         </div>
-                      { /*  <div className="carousel-item">
+                       <div className="carousel-item">
                           <img className="d-block w-100" src="..." alt="Second slide" />
                         </div>
                         <div className="carousel-item">
                           <img className="d-block w-100" src="..." alt="Third slide" />
-                        </div> */ }
+                        </div> 
                       </div>
                       <div className="news-indicators">
                         <ol className="carousel-indicators">

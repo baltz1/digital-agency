@@ -450,6 +450,41 @@
         -webkit-box-shadow: 0px 0px 36px -8px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0px 0px 36px -8px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 0px 36px -8px rgba(0, 0, 0, 0.75); }
+        #news .content-align .carousel-container .carousel .over-ride {
+          overflow: visible; }
+        #news .content-align .carousel-container .carousel .carousel-header {
+          position: absolute;
+          left: 27rem;
+          top: 5rem;
+          width: 40rem; }
+          #news .content-align .carousel-container .carousel .carousel-header h1 {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 3.5rem; }
+            #news .content-align .carousel-container .carousel .carousel-header h1 span {
+              color: #fad44b;
+              padding-right: 20px; }
+          #news .content-align .carousel-container .carousel .carousel-header .news-description {
+            font-weight: 700;
+            font-size: 1.06rem; }
+          #news .content-align .carousel-container .carousel .carousel-header .line-container {
+            display: flex;
+            justify-content: flex-end;
+            max-width: 54%; }
+            #news .content-align .carousel-container .carousel .carousel-header .line-container .design-line {
+              border-bottom: solid 3.8px #1d1d1d;
+              width: 15%; }
+          #news .content-align .carousel-container .carousel .carousel-header .post-date {
+            display: flex;
+            justify-content: flex-end;
+            max-width: 76%;
+            margin-top: 1.5rem; }
+            #news .content-align .carousel-container .carousel .carousel-header .post-date p {
+              font-weight: 600;
+              font-size: .8rem; }
+              #news .content-align .carousel-container .carousel .carousel-header .post-date p span {
+                font-weight: 700;
+                text-transform: capitalize; }
     #news .content-align .news-controls .carousel-control-next, #news .content-align .news-controls .carousel-control-prev {
       position: relative; }
     #news .content-align .news-controls .carousel-indicators {
